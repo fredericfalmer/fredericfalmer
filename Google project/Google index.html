@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+	
+		<head>
+
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="Google style.css">
+			<title>Google</title>
+
+		</head>
+
+		<body>
+			
+				<header>					
+					<nav>
+					<!-- <nav> doit regrouper tous les principaux liens de navigation du site -->	
+						<div class="mail">
+						<!-- <div sont les balises blocs -->
+							<a href="https://mail.google.com/">Gmail</a>
+							<!-- <a pour lien verrs un autre site et texte associé -->
+						</div>
+
+						<div class="image">
+							<a href="https://www.google.fr/imghp?hl=fr&tab=wi&ogbl" >Images</a>
+						</div>
+
+						<div class="applications">
+							<a href="https://support.google.com/googlenest/answer/7126338?co=GENIE.Platform%3DAndroid&hl=fr" ><img src="images/Applications Google.png" alt="applications google"  id='applications_google'/></a>
+							<!-- nous ne mettrons des id que sur des éléments qui sont uniques dans la page, comme par exemple le logo -->
+						</div>
+
+						<div class="connection">
+							<a href="https://myaccount.google.com/" ><img src="images/Compte Google.png" alt="compte google"  id='compte_google'/></a>
+						</div>
+					</nav>
+
+				</header>
+
+				<div class="main">
+					<div class="logo_google">
+						<img src="images/googlelogo_color_272x92dp.png" alt="logo google" id='logo_google'/>
+					</div>
+
+					<div class='formulaire'>
+							<form method="POST" action="traitement.php">
+								<input type="text" name="search" id="recherche"/>
+							
+								<div class="bouton_envoi">
+									<input type="submit" value="Recherche Google" class="envoi"/>
+									<input type="submit" value="J'ai de la chance" class="envoi"/>
+								</div>	
+							</form>
+					</div>
+
+					<div class="corona"> 
+						<img src="images/dothefive_90x90t.gif" alt="geste barrière" id="geste_barriere" />
+						<a href='https://www.google.fr/search?q=coronavirus+conseils&fbx=dothefive&hl=fr'>5 GESTES "BARRIERE" pour freiner le coronavirus</a>
+					</div>
+					<div class='langue'>
+						<p>Google disponible en : <a href="https://www.google.com/">English</a></p>
+					</div>
+
+				</div>
+
+
+				<footer class="foot">
+					<div class="foot_haut">
+						France
+					</div>
+					<div class="foot_bas">
+						<div>
+							<a href="https://ads.google.com/intl/fr_fr/home/">Publicité</a>
+							<a href="https://www.google.com/services/">Entreprise</a>
+							<a href="https://about.google/">A propos</a>
+							<a href="https://www.google.com/search/howsearchworks">Comment fonctionne la recherche Google ?</a>
+						</div>
+						<div>
+							<a href="https://support.google.com/websearch/answer/9586983?p=fr_tos&hl=fr&fg=1&visit_id=637212469807480422-2266613930&rd=1">Publication judiciaire</a>
+							<a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=637212469807480422-2266613930&rd=1">Info consommateurs</a>
+							<a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+							<a href="https://policies.google.com/terms?fg=1">Conditions</a>
+							<a href="https://www.google.com/preferences?hl=fr">Paramètres</a>
+						</div>
+					</div>
+
+				</footer>
+			</div>
+		
+
+</html>

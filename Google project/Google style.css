@@ -1,0 +1,182 @@
+body{
+	min-width: 980px; 
+	/* min-width: largeur minimale de la page */
+	font-family:  "verdana", "times new roman", sans-serif;
+}
+
+a:hover{
+	 text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+	color:blue;
+}
+
+nav{
+	min-height: 40px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 10px 25px 0 0;
+}
+
+
+nav a{
+	text-decoration: none;
+	color : #474747;
+}
+
+nav a:active{
+	text-decoration: none;
+}
+
+input{
+	margin: 12px 8px;
+}
+
+.logo_google
+{	
+    height: 250px;
+    
+	margin-bottom: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.bouton_envoi{
+	display: flex;
+	justify-content: center;
+
+}
+
+.main{
+
+
+	min-width: 980px;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 0.9em;
+	
+}
+
+.image{
+	padding: 0 20px;
+}
+
+
+.formulaire
+{	
+	text-align: center;
+}
+
+.corona
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.corona img{
+	margin: 0 12px;
+}
+
+.foot
+{
+	width: 100%;
+	position : fixed;
+	right: 0px;
+	bottom: 0px;
+	color: #575757;
+	background-color: #e8e8e8;	
+}
+
+.foot a{
+	color: #575757;
+	padding: 0 20px;
+}
+
+.foot a:active{
+	color :red;
+}
+
+.foot_haut
+{
+	padding: 0 0 0 20px;
+	line-height: 40px;
+	border-top: 1px #bfbfbf solid;
+}
+
+.foot_bas
+{	
+	border-top: 1px #bfbfbf solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 40px;	
+}
+
+#applications_google
+{
+	width: 40px;
+	height: auto;
+}
+
+#compte_google
+{
+	width: 40px;
+	height: auto;
+}
+
+#logo_google
+{
+	width: 300px;
+	height: auto;
+}
+
+#geste_barriere
+{
+	width: 50px;
+	height: 50px;
+}
+
+#recherche
+{
+	height: 30px;
+	width: 450px;
+	border: 1px solid #bfbfbf;
+	border-radius: 25px;
+	padding-left: 40px;
+	background-image: url('Images/icone_recherche.png');
+	background-position: 10px 7px;
+	background-repeat: no-repeat;
+
+}
+
+#recherche:focus{
+	outline : none;
+}
+#recherche:hover{
+	box-shadow: 2px 2px 15px #919191;
+}
+
+
+.envoi
+{
+	height: 35px;
+	width: 125px;
+	background-color: #ebebeb;
+	color :#6b6b6b;
+	border : none;
+	border-radius: 5px;
+}
+
+.envoi:hover{
+	border: 1px solid #bfbfbf;	
+}
+
